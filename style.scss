@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(225, 225, 250);
+    main {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .container {
+            padding: 0 20px;
+            width: 2000px;
+            max-width: 700px;
+            .text {
+                text-align: center;
+                margin-bottom: 20px;
+                font-size: 40px;
+                padding-bottom: 20px;
+                letter-spacing: 4px;
+                span {
+                    padding-bottom: 10px;
+                    border-bottom: 5px solid rgb(145, 145, 252);
+                }
+            }
+            .main {
+                background-color: #fff;
+                border-radius: 15px;
+                padding: 20px;
+                box-shadow: 0 0 12px -3px;
+                .img-cont {
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 50%;
+                    margin: auto;
+                    display: flex;
+                    overflow: hidden;
+                    box-shadow: 15px -5px 2px -3px rgb(145, 145, 252);
+                    justify-content: center;
+                    img {
+                        width: 100%;
+                    }
+                }
+                h4 {
+                    text-align: center;
+                    margin-top: 15px;
+                    letter-spacing: 2px;
+                }
+                h3 {
+                    text-align: center;
+                    margin-top: 5px;
+                    font-weight: normal;
+                    color: rgb(145, 145, 252);
+                    margin-bottom: 15px;
+                }
+                .content {
+                    text-align: center;
+                    color: grey;
+                }
+                .btnCont {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 15px;
+                    div {
+                        margin: 0 20px;
+                        button {
+                            background-color: transparent;
+                            border: none;
+                            span {
+                                color: rgb(145, 145, 252);
+                                font-size: 20px;
+                                transition: .5s ease;
+                                &:hover {
+                                    color: #000;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                }
+                .surprise {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 10px;
+                    button {
+                        background-color: rgb(225, 225, 250);
+                        border: 2px solid rgb(145, 145, 252);
+                        border-radius: 10px;
+                        color: rgb(145, 145, 252);
+                        padding: 5px;
+                        letter-spacing: 2px;
+                        transition: .5s ease;
+                        &:hover {
+                            background-color: rgb(145, 145, 252);
+                            cursor: pointer;
+                            color: rgb(32, 32, 32);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

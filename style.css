@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(225, 225, 250);
+}
+body main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .container {
+  padding: 0 20px;
+  width: 2000px;
+  max-width: 700px;
+}
+body main .container .text {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 40px;
+  padding-bottom: 20px;
+  letter-spacing: 4px;
+}
+body main .container .text span {
+  padding-bottom: 10px;
+  border-bottom: 5px solid rgb(145, 145, 252);
+}
+body main .container .main {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 12px -3px;
+}
+body main .container .main .img-cont {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 15px -5px 2px -3px rgb(145, 145, 252);
+  justify-content: center;
+}
+body main .container .main .img-cont img {
+  width: 100%;
+}
+body main .container .main h4 {
+  text-align: center;
+  margin-top: 15px;
+  letter-spacing: 2px;
+}
+body main .container .main h3 {
+  text-align: center;
+  margin-top: 5px;
+  font-weight: normal;
+  color: rgb(145, 145, 252);
+  margin-bottom: 15px;
+}
+body main .container .main .content {
+  text-align: center;
+  color: grey;
+}
+body main .container .main .btnCont {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+body main .container .main .btnCont div {
+  margin: 0 20px;
+}
+body main .container .main .btnCont div button {
+  background-color: transparent;
+  border: none;
+}
+body main .container .main .btnCont div button span {
+  color: rgb(145, 145, 252);
+  font-size: 20px;
+  transition: 0.5s ease;
+}
+body main .container .main .btnCont div button span:hover {
+  color: #000;
+  cursor: pointer;
+}
+body main .container .main .surprise {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+body main .container .main .surprise button {
+  background-color: rgb(225, 225, 250);
+  border: 2px solid rgb(145, 145, 252);
+  border-radius: 10px;
+  color: rgb(145, 145, 252);
+  padding: 5px;
+  letter-spacing: 2px;
+  transition: 0.5s ease;
+}
+body main .container .main .surprise button:hover {
+  background-color: rgb(145, 145, 252);
+  cursor: pointer;
+  color: rgb(32, 32, 32);
+}/*# sourceMappingURL=style.css.map */
